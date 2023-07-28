@@ -3,10 +3,10 @@ class Macprefs < Formula
 
     desc "Backup and Restore your Mac System and App Preferences"
     homepage "https://github.com/sijanc147/macprefs"
-    url "https://github.com/sijanc147/macprefs/archive/v1.0.26.tar.gz"
-    sha256 "03fcd5bd778d53fa9b89ec960b2fab18e5a8303ab15cbd79125def4cc9af8228"
+    url "https://github.com/sijanc147/macprefs/archive/v2.0.0.tar.gz"
+    sha256 "f980b7e0a17cc5aee919f9406b9ad7bfe24d48c829227d74e0dde5c37988ca13"
 
-    depends_on :python if MacOS.version <= :snow_leopard
+    depends_on :python3
 
     def install
       bin.install Dir["*"]
