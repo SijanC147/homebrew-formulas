@@ -5,8 +5,8 @@
 class Pure < Formula
   desc "Pretty, minimal and fast zsh prompt"
   homepage "https://github.com/SijanC147/pure"
-  url "https://github.com/SijanC147/pure/archive/refs/tags/v1.23.7.tar.gz"
-  sha256 "2c1f2ad22a9b6aea4c58d38a6863e3f8180456430a0ec8f43ec656fcdfaabeea"
+  url "https://github.com/SijanC147/pure/archive/refs/tags/v1.23.8.tar.gz"
+  sha256 "4bd150b0b9920a1bca2342a4c043638ba8b5fd8f3b926bb0c7f77cd6bea9ce33"
   license "MIT"
 
   depends_on "zsh" => :test
